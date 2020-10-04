@@ -1,0 +1,11 @@
+.images-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.images-item {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=main.css.map */
