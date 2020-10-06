@@ -12,7 +12,7 @@ let counterValue = Number(counterValueRef);
 
 btnIncrRef.addEventListener('click', onIncrement);
 
-btnDecrRef.addEventListener('click', decrement);
+btnDecrRef.addEventListener('click', onDecrement);
 
 function onIncrement(event) {
   counterValue += 1;
@@ -20,7 +20,7 @@ function onIncrement(event) {
   document.querySelector('#value').textContent = result;
 }
 
-function decrement(event) {
+function onDecrement(event) {
   counterValue -= 1;
   const result = String(counterValue);
   document.querySelector('#value').textContent = result;
